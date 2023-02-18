@@ -10,7 +10,7 @@
 
 int main(void)
 {
-	int countNumber;
+	int countNumber = 0;
 
 	while (countNumber < 10)
 	printf("%d", countNumber);
