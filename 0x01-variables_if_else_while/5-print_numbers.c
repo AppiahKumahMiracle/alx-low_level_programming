@@ -10,11 +10,10 @@
 
 int main(void)
 {
-	int countNumber = 0;
+	int countNumber;
 
-	while (countNumber < 10)
+	for (countNumber = 0; countNumber < 10; countNumber++)
 	printf("%d", countNumber);
-	countNumber++;
 	printf("\n");
 
 	return (0);
