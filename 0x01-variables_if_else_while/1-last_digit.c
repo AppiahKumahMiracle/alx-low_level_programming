@@ -6,7 +6,8 @@
 
 /**
  * main - Printing out the last digit out.
- * Retrun: 0 (Run successful)
+ * Return: 0 (Run successful).
+ *
  */
 
 int main(void)
@@ -24,11 +25,11 @@ int main(void)
 	}
 	else if (lastNumber == 0)
 	{
-		printf("Last digit of %d id %d and is 0\n", n, lastNumber);
+		printf("Last digit of %d is %d and is 0\n", n, lastNumber);
 	}
 	else if (lastNumber < 6 && lastNumber != 0)
 	{
-		printf("Last digit of %d is %d and less than 6 and not 0\n", n, lastNumber);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lastNumber);
 	}
 	return (0);
 }
