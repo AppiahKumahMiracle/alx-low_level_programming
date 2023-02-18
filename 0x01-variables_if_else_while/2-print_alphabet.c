@@ -10,8 +10,8 @@ int main(void)
 {
 	char alphabetLetter;
 
-	for (alphabetLetter = "a"; alphabetLetter <= "z"; alphabetLetter++)
+	for (alphabetLetter = 'a'; alphabetLetter <= 'z'; alphabetLetter++)
 	putchar(alphabetLetter);
-	putchar("\n");
+	putchar('\n');
 	return (0);
 }
