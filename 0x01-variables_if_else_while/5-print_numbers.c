@@ -10,11 +10,11 @@
 
 int main(void)
 {
-	int count;
+	int countNumber;
 
-	while (count < 10)
-	printf("%d", count);
-	count++;
+	while (countNumber < 10)
+	printf("%d", countNumber);
+	countNumber++;
 	printf("\n");
 
 	return (0);
