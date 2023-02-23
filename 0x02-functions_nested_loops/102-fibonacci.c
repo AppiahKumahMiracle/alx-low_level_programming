@@ -14,17 +14,17 @@ int main(void)
 	{
 	if (num == 0)
 	{
-	printf("%d\n", Lnum);
+	printf("%ld\n", Lnum);
 	}
 	else if (num == 1)
 	{
-	printf(", %d", Knum);
+	printf(", %ld", Knum);
 	}
 	else
 	{
 	Knum += Lnum;
 	Lnum = Knum - Lnum;
-	printf(", %d", Knum);
+	printf(", %ld", Knum);
 	}
 	num++;
 	}
