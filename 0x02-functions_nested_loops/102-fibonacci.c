@@ -13,20 +13,16 @@ int main(void)
 	while (num < 50)
 	{
 	if (num == 0)
-	{
 	printf("%ld\n", Lnum);
-	}
 	else if (num == 1)
-	{
 	printf(", %ld", Knum);
-	}
 	else
 	{
 	Knum += Lnum;
 	Lnum = Knum - Lnum;
 	printf(", %ld", Knum);
 	}
-	num++;
+	++num;
 	}
 	printf("\n");
 	return (0);
