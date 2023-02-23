@@ -15,12 +15,12 @@ int main(void)
 	if (num == 0)
 	printf("%ld\n", Lnum);
 	else if (num == 1)
-	printf(", %ld", Knum);
+	printf(",%ld", Knum);
 	else
 	{
 	Knum += Lnum;
 	Lnum = Knum - Lnum;
-	printf(", %ld", Knum);
+	printf(",%ld", Knum);
 	}
 	++num;
 	}
