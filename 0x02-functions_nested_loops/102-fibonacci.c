@@ -10,7 +10,7 @@ int main(void)
 	int num = 0;
 	long Lnum = 1, Knum = 2;
 
-	while (num < 54)
+	while (num < 50)
 	{
 	if (num == 0)
 	{
