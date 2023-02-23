@@ -7,23 +7,21 @@
 
 int main(void)
 {
-	int num = 0;
-	long Lnum = 1, Knum = 2;
+	int count;
+	unsigned long fib1 = 0, fib2 = 1, sum;
 
-	while (num < 50)
+	for (count = 0; count < 50; count++)
 	{
-	if (num == 0)
-	printf("%ld\n", Lnum);
-	else if (num == 1)
-	printf(", %ld", Knum);
-	else
-	{
-	Knum += Lnum;
-	Lnum = Knum - Lnum;
-	printf(", %ld", Knum);
+		sum = fib1 + fib2;
+		printf("%lu", sum);
+
+		fib1 = fib2;
+		fib2 = sum;
+
+		if (count == 49)
+			printf("\n");
+		else
+			printf(", ");
 	}
-	num++;
-	}
-	printf("\n");
 	return (0);
 }
