@@ -17,7 +17,7 @@
 	va_start(list, format);
 
 
-	if (format)
+	if(format)
 	{
 		while (format[i])
 		{
@@ -35,10 +35,10 @@
 				case 's':
 					str = va_arg(list, char *);
 
-					if (!str)
+					if(!str)
 						str = "(nil)";
-						printf("%s%s", sep, str);
-						break;
+					printf("%s%s", sep, str);
+					break;
 				default:
 					i++;
 					continue;
@@ -47,6 +47,6 @@
 		i++;
 		}
 	}
-	printf("\n");
+		printf("\n");
 	va_end(list);
 }
